@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Portfolio</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="https://drive.google.com/uc?export=download&id=1t17BgXcpGPbMDsISCZEcb2ILzUSvHgg9" target="_blank" class="nav-link resume-btn">Resume</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Aman Gupta</span>
+                    <span class="title">Data Analyst & AI Engineer</span>
+                </h1>
+                <p class="hero-description">
+                    Analytical and tech-savvy Data Analyst with expertise in AI, Machine Learning, and Data Science. 
+                    Passionate about translating complex data into actionable insights for strategic decision-making. 
+                    I will complete my B.Tech in Artificial Intelligence and Data Science in May 2025.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+                            <div class="hero-image">
+                    <div class="profile-photo">
+                        <img src="profile-photo.jpg" alt="Aman Gupta - Data Analyst & AI Engineer" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="profile-placeholder" style="display: none;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated Data Analyst and AI Engineer with a passion for transforming complex data into actionable insights. 
+                        With expertise in Python, Machine Learning, and Data Science, I enjoy solving analytical problems and building intelligent solutions.
+                    </p>
+                    <p>
+                        I have completed my B.Tech in Artificial Intelligence and Data Science, I recently worked as a Research Analyst Intern 
+                        where I conduct data collection, analysis, and research to support business intelligence and strategic initiatives.
+                    </p>
+                    <div class="skills">
+                        <h3>Skills & Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Tableau</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Months Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Internships</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>HackerRank</h3>
+                        <p>Problem Solving & Data Structures</p>
+                        <div class="achievement-stats">
+                            <span class="stat">5★ Problem Solving</span>
+                            <span class="stat">4★ Python</span>
+                            <span class="stat">3★ SQL</span>
+                        </div>
+                        <a href="https://www.hackerrank.com/profile/amangupta31103" target="_blank" class="achievement-link">
+                            <i class="fas fa-external-link-alt"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>LeetCode</h3>
+                        <p>Algorithm & Data Structure Challenges</p>
+                        <div class="achievement-stats">
+                            <span class="stat">150+ Problems Solved</span>
+                            <span class="stat">Medium Difficulty</span>
+                            <span class="stat">Python Solutions</span>
+                        </div>
+                        <a href="https://leetcode.com/u/Aman_003/" target="_blank" class="achievement-link">
+                            <i class="fas fa-external-link-alt"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Research Analyst Intern</h3>
+                            <span class="company">Twimbit, Hybrid</span>
+                            <span class="period">May 2025 - June 2025 (2 months)</span>
+                        </div>
+                        <p>
+                            Conducted data collection and research to support business intelligence and strategic initiatives. 
+                            Analyzed datasets to uncover trends, patterns, and insights to aid in decision-making processes. 
+                            <strong>Skills gained:</strong> Data analysis, Business intelligence, Research methodologies, Strategic insights.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="company">Jio, Remote</span>
+                            <span class="period">July 2024 - Sep 2024 (3 months)</span>
+                        </div>
+                        <p>
+                            Assisted in software development, wrote clean and efficient code, identified and resolved bugs. 
+                            Collaborated with senior developers to implement new features and improve existing ones.
+                            <strong>Skills gained:</strong> Software development, Bug fixing, Code review, Team collaboration.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>B.Tech in AI & Data Science</h3>
+                            <span class="company">Dr. Akhilesh Das Gupta Institute of Professional Studies</span>
+                            <span class="period">Aug 2022 - May 2025</span>
+                        </div>
+                        <p>
+                            Currently pursuing B.Tech in Engineering (Artificial Intelligence and Data Science) 
+                            in Delhi, India. Specialized in AI, Machine Learning, and Data Science technologies.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Diploma in IT</h3>
+                            <span class="company">Ambedkar Institute of Technology</span>
+                            <span class="period">Aug 2019 - July 2022</span>
+                        </div>
+                        <p>
+                            Completed Diploma in Engineering (Information Technology Enabled Services & Management) 
+                            in Delhi, India. Built strong foundation in IT and management principles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Customer Churn Analysis using Power BI</h3>
+                        <p>
+                            Developed a comprehensive customer churn analysis dashboard to identify at-risk customers before they churn, 
+                            enabling proactive interventions and retention strategies. Implemented customer segmentation based on shared characteristics.
+                        </p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Data Analysis</span>
+                            <span>Customer Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Aman-02003/Customer-Churn-Analysis-using-Power-BI-main" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Healthcare Chatbot</h3>
+                        <p>
+                            Developed an intelligent healthcare chatbot using Python, PyTorch, and SpaCy for Natural Language Understanding. 
+                            Implemented Neural Network model for intent classification and response generation with symptom-based search capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>NLP</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Feel free to reach out if you'd like to collaborate or just want to say hello.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:amangupta31103@gmail.com">amangupta31103@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <a href="tel:+919971354771">+91-9971354771</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/aman-gupta2003" target="_blank">linkedin.com/in/aman-gupta2003</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/Aman-02003" target="_blank">github.com/aman-gupta2003</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    
+                    <!-- Form Status Messages -->
+                    <div class="form-status" style="display: none;">
+                        <div class="status-message"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Aman Gupta. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/aman-gupta2003" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/aman-gupta2003" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
